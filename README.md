@@ -38,10 +38,3 @@ Pilihan: Bareskrim, Korlantas, Baintelkam, Korsabhara, Korbrimob, Korpolairud, D
 ## Dokumentasi
 
 Video demonstrasi program:
-
-![Demonstrasi Program TP4](TP4.mp4)
-
-<video width="600" controls>
-  <source src="TP4.mp4" type="video/mp4">
-  Browser Anda tidak mendukung tag video. <a href="TP4.mp4">Tonton video di sini</a>.
-</video>
