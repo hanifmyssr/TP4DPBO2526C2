@@ -40,10 +40,11 @@ Pilihan: Bareskrim, Korlantas, Baintelkam, Korsabhara, Korbrimob, Korpolairud, D
 6. Klik **Cancel** untuk mengosongkan form dan kembali ke mode Add.
 
 ## Dokumentasi
-(Tambahkan screenshot / GIF yang menunjukkan semua operasi: Create, Read, Update, Delete, termasuk pop-up konfirmasi.)
 
-![Tampilan awal](Dokumentasi/awal.png)
-![Create](Dokumentasi/create.png)
-![Update](Dokumentasi/update.png)
-![Konfirmasi Delete](Dokumentasi/konfirmasi-delete.png)
-![Setelah Delete](Dokumentasi/delete.png)
+Video demonstrasi program:
+
+[TP4.mp4](TP4.mp4)
+
+<video width="600" controls>
+  <source src="TP4.mp4" type="video/mp4">
+</video>

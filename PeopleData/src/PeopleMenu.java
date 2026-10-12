@@ -8,7 +8,7 @@ import java.time.Year;
 import java.util.ArrayList;
 
 public class PeopleMenu extends JFrame {
-    // ===== komponen (nama harus sama dengan "binding" di PeopleMenu.form) =====
+    // Component
     private JPanel mainPanel;
     private JPanel formPanel;
     private JPanel buttonPanel;
@@ -24,7 +24,7 @@ public class PeopleMenu extends JFrame {
     private JTable peopleTable;
     private JScrollPane tableScrollPane;
 
-    // ===== data =====
+    // Data
     private static final int USIA_MINIMAL = 18;
     private ArrayList<Person> listPerson;
     private int selectedIndex = -1; // -1 = tidak ada baris yang dipilih (mode tambah)
@@ -115,7 +115,7 @@ public class PeopleMenu extends JFrame {
 
     // membuat model tabel dari listPerson
     public final DefaultTableModel setTable() {
-        String[] columns = {"No", "ID Anggota", "Nama", "Tahun Lahir", "Satuan", "Pangkat"};
+        String[] columns = {"ID", "Nama", "Tahun Lahir", "Satuan", "Pangkat"};
         DefaultTableModel model = new DefaultTableModel(null, columns) {
             @Override
             public boolean isCellEditable(int row, int column) {
@@ -125,7 +125,7 @@ public class PeopleMenu extends JFrame {
 
         for (int i = 0; i < listPerson.size(); i++) {
             Person p = listPerson.get(i);
-            Object[] row = {i + 1, p.getId(), p.getNama(), p.getTahunLahir(),
+            Object[] row = {p.getId(), p.getNama(), p.getTahunLahir(),
                     p.getKategori(), p.getPangkat()};
             model.addRow(row);
         }
@@ -241,12 +241,12 @@ public class PeopleMenu extends JFrame {
         return new Person(id, nama, tahun, kategori, pangkat);
     }
 
-    // data awal (nama fiktif)
+    // data awal
     private void populateList() {
-        listPerson.add(new Person("AGT-001", "Budi Santoso", 1990, "Bareskrim", "Iptu"));
-        listPerson.add(new Person("AGT-002", "Siti Rahma", 1995, "Korlantas", "Bripda"));
-        listPerson.add(new Person("AGT-003", "Andi Wijaya", 1988, "Densus 88 AT", "Aiptu"));
-        listPerson.add(new Person("AGT-004", "Dewi Lestari", 1992, "Div Propam", "AKP"));
-        listPerson.add(new Person("AGT-005", "Rudi Hartono", 1980, "Korbrimob", "Kompol"));
+        listPerson.add(new Person("POL001", "Budi Santoso", 1990, "Bareskrim", "Iptu"));
+        listPerson.add(new Person("POL002", "Siti Rahma", 1995, "Korlantas", "Bripda"));
+        listPerson.add(new Person("POL003", "Andi Wijaya", 1988, "Densus 88 AT", "Aiptu"));
+        listPerson.add(new Person("POL004", "Dewi Lestari", 1992, "Div Propam", "AKP"));
+        listPerson.add(new Person("POL005", "Rudi Hartono", 1980, "Korbrimob", "Kompol"));
     }
 }

@@ -5,6 +5,7 @@ public class Person {
     private String kategori;  // satuan Polri (dipilih lewat JComboBox)
     private String pangkat;   // atribut baru (JComboBox)
 
+    // Constructor
     public Person(String id, String nama, int tahunLahir, String kategori, String pangkat) {
         this.id = id;
         this.nama = nama;
@@ -12,6 +13,8 @@ public class Person {
         this.kategori = kategori;
         this.pangkat = pangkat;
     }
+
+    // Getter & Setter
 
     public String getId() { return id; }
     public void setId(String id) { this.id = id; }
