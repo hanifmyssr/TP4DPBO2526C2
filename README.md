@@ -1,11 +1,7 @@
 # TP4 DPBO - PeopleData (Data Anggota Polri)
 
-**Nama:** Muhammad Hanif Muyassar
-**NIM:** (isi NIM)
-**Kelas:** (isi kelas)
-
 ## Janji
-Saya mengerjakan Tugas Praktikum 4 DPBO dengan sebaik-baiknya dan tanpa melakukan kecurangan. Aamiin.
+Saya Muhammad Hanif Muyassar dengan NIM 2510593 mengerjakan Tugas Praktikum 4 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
 ## Desain & Fungsi Program
 Aplikasi desktop Java Swing untuk mengelola **data anggota Polri** (data fiktif) dengan operasi CRUD dan tampilan tabel. Kategori mengacu pada satuan di tingkat Mabes Polri.
@@ -43,8 +39,9 @@ Pilihan: Bareskrim, Korlantas, Baintelkam, Korsabhara, Korbrimob, Korpolairud, D
 
 Video demonstrasi program:
 
-[TP4.mp4](TP4.mp4)
+![Demonstrasi Program TP4](TP4.mp4)
 
 <video width="600" controls>
   <source src="TP4.mp4" type="video/mp4">
+  Browser Anda tidak mendukung tag video. <a href="TP4.mp4">Tonton video di sini</a>.
 </video>
