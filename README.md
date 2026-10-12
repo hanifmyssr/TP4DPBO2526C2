@@ -38,3 +38,9 @@ Pilihan: Bareskrim, Korlantas, Baintelkam, Korsabhara, Korbrimob, Korpolairud, D
 ## Dokumentasi
 
 Video demonstrasi program:
+
+
+https://github.com/user-attachments/assets/7de381c9-f7f4-4a71-916c-a41edfd39ba8
+
+
+
